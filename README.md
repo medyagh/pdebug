@@ -1,5 +1,6 @@
 # pdebug
 prettier debug.PrintStack() for golang
+
 ilters stack traces to list only code in your package and hide extra information.
 
 
