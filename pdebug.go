@@ -9,17 +9,17 @@ import (
 	"strings"
 )
 
-// Print writes a filtered stack trace to stderr, showing only frames that belong
+// PrintStack writes a filtered stack trace to stderr, showing only frames that belong
 // to the main module (e.g., "k8s.io/minikube/..."). Each line is "<abs file>:<line>".
 // Example:
 //
 //	/Users/you/workspace/minikube/pkg/minikube/out/out.go:507
 //	/Users/you/workspace/minikube/pkg/minikube/out/out_reason.go:99
 //	...
-func Print() { PrintTo(os.Stderr) }
+func PrintStack() { PrintStackTo(os.Stderr) }
 
-// PrintTo is like Print, but writes to the given io.Writer.
-func PrintTo(w io.Writer) {
+// PrintStackTo is like Print, but writes to the given io.Writer.
+func PrintStackTo(w io.Writer) {
 	printFiltered(w, 1, detectedMainModulePath())
 }
 

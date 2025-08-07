@@ -71,7 +71,7 @@ func lineNumberSuffix(l string) string {
 func TestPrintToWithNonMatchingPrefix(t *testing.T) {
 	withIncludePrefix(t, "this/prefix/does/not/match")
 	var buf bytes.Buffer
-	PrintTo(&buf)
+	PrintStackTo(&buf)
 	if buf.Len() != 0 {
 		t.Fatalf("expected no output for non-matching prefix, got: %q", buf.String())
 	}
