@@ -6,7 +6,7 @@ more clean and human readable stack trace for golang, filters trace to calls in 
 
 ```go
 import "github.com/medyagh/pdebug"
-pdebug.Print()
+pdebug.PrintStack()
 ```
 
 ### Example Output with pdbeug
