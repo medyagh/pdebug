@@ -22,7 +22,7 @@ pdebug.PrintStack()
 
 ```
 
-### Compare to debug.PrintStack
+### Compare to debug.PrintStack()
 ```
 runtime/debug.Stack()
         /usr/local/go/src/runtime/debug/stack.go:26 +0x64
