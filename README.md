@@ -1,7 +1,9 @@
 # pdebug
 prettier debug.PrintStack() for golang
 
-ilters stack traces to list only code in your package and hide extra information.
+
+- Filters stack traces to list function calls only in YOUR package.
+- Hide extra information (pointer addreses and machine readable arguments).
 
 
 ### Usage
