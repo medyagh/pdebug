@@ -1,6 +1,6 @@
 # pdebug
-a prettier debug.PrintStack() for golang
-a cleaner/ more readable stack trace, filters stack traces to list only code in your package and hide extra information.
+prettier debug.PrintStack() for golang
+ilters stack traces to list only code in your package and hide extra information.
 
 
 ### Usage
