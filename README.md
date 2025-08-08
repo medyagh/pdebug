@@ -13,7 +13,7 @@ import "github.com/medyagh/pdebug"
 pdebug.PrintStack()
 ```
 
-### Example Output with pdbeug
+### Example Output with pdebug
 ```
         /Users/medya/workspace/minikube/cmd/minikube/main.go:95 +0x250
         /Users/medya/workspace/minikube/pkg/minikube/out/out.go:487
